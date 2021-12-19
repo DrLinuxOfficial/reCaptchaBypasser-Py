@@ -25,8 +25,8 @@ if res == True:
    print("ByPassed !!!")
 else:
      print("Try Again !!!")
-```
---
+
+<hr>
 <h3>
 This is Library  For Bypass reCaptcha Using Selenium Python !
 </h3>
@@ -34,13 +34,13 @@ This is Library  For Bypass reCaptcha Using Selenium Python !
 <h3>
 Installition :
 </h3>
-```
+
 1 - ffmpeg
 2 - pip install pydub
 3 - pip install selenium
 4 - pip install SpeechRecognition
 5 - pip install reCaptchaBypasser
-```
+
 <h1>
 Buy Me Coffee !!!
 <br>
