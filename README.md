@@ -11,7 +11,7 @@ reCaptchaBypasser
 <h1>
 Usage :
 </h1>
-
+<pre>
 from selenium import webdriver
 from reCaptchaBypasser import reCaptchaScraper
 import time
@@ -25,7 +25,7 @@ if res == True:
    print("ByPassed !!!")
 else:
      print("Try Again !!!")
-
+</pre>
 <hr>
 <h3>
 This is Library  For Bypass reCaptcha Using Selenium Python !
