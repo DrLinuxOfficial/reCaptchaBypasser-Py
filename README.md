@@ -26,7 +26,7 @@ if res == True:
 else:
      print("Try Again !!!")
 ```
-<hr>
+--
 <h3>
 This is Library  For Bypass reCaptcha Using Selenium Python !
 </h3>
