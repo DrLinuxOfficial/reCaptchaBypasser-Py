@@ -11,7 +11,7 @@ reCaptchaBypasser
 <h1>
 Usage :
 </h1>
-```
+
 from selenium import webdriver
 from reCaptchaBypasser import reCaptchaScraper
 import time
@@ -36,9 +36,13 @@ Installition :
 </h3>
 
 1 - ffmpeg
+<br>
 2 - pip install pydub
+<br>
 3 - pip install selenium
+<br>
 4 - pip install SpeechRecognition
+<br>
 5 - pip install reCaptchaBypasser
 
 <h1>
