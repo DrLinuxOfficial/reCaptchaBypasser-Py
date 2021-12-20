@@ -1,17 +1,5 @@
 
-5 - pip install reCaptchaBypasser
-
 <h1>
-Buy Me Coffee !!!
-<br>
-<a href="https://t.me/CHANNEL_TERMUX_HACK">
-<img src="https://img.shields.io/badge/-buy_me_a%C2%A0coffee-gray?logo=buy-me-a-coffee">
-</a>
-</h1>
-<h3><b>Bitcoin : </b>bc1qe398slzs3f3yg64x62j2rpnfg5r9u3mjwhwew9</h3>
-<h3><b>BitcoinCash : </b></h3>
-<h3><b>Litecoin : </b>ltc1qtmv8jngy4ltqf2yqm3lmd5p33clxcp6u6uu5t2</h3>
-<h3><b><h1>
 reCaptchaBypasser v1.3
 </h1>
 <a href="https://python.org">
