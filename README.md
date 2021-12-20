@@ -1,5 +1,18 @@
+
+5 - pip install reCaptchaBypasser
+
 <h1>
-reCaptchaBypasser
+Buy Me Coffee !!!
+<br>
+<a href="https://t.me/CHANNEL_TERMUX_HACK">
+<img src="https://img.shields.io/badge/-buy_me_a%C2%A0coffee-gray?logo=buy-me-a-coffee">
+</a>
+</h1>
+<h3><b>Bitcoin : </b>bc1qe398slzs3f3yg64x62j2rpnfg5r9u3mjwhwew9</h3>
+<h3><b>BitcoinCash : </b></h3>
+<h3><b>Litecoin : </b>ltc1qtmv8jngy4ltqf2yqm3lmd5p33clxcp6u6uu5t2</h3>
+<h3><b><h1>
+reCaptchaBypasser v1.3
 </h1>
 <a href="https://python.org">
 <img src="https://img.shields.io/badge/python-v3.8-blue">'
@@ -11,6 +24,9 @@ reCaptchaBypasser
 <h1>
 Usage :
 </h1>
+<h3>
+Notes : Patch Other Error For Packages .
+</h3>
 <pre>
 from selenium import webdriver
 from reCaptchaBypasser import reCaptchaScraper
@@ -19,12 +35,14 @@ import time
 driver = webdriver.chrome(executable_path = r"home/username/Desktop/chromedriver")
 driver.get(url)
 time.sleep(5)
-reCaptcha = reCaptchaScraper(driver)
+#Sleep Time For Check and Searching Element For reCaptcha Scraping & Defaulting SleepTime == 2 !!!
+reCaptcha = reCaptchaScraper(driver, SleepTime=3)
 res = reCaptcha.reCaptchaGoogleV2()
-if res == True:
+if res["Response"] == True:
    print("ByPassed !!!")
 else:
      print("Try Again !!!")
+print("reCaptchaTextKey ==> ", res["reCaptchaTextKey"])
 </pre>
 <hr>
 <h3>
