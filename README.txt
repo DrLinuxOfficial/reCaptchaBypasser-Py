@@ -3,7 +3,7 @@ My Github : DrLinuxOfficial
 Python Version : v3.8
 OS : Windows(10,8.1,7) & Linux(All Distro)
 
-This Package For Bypassing reCaptcha in Selenium Python .
+This Package For Bypassing reCaptcha in Python .
 
 This Package Is Made With Python Version 3.8 And May Not Work On Lower Versions .
 
@@ -20,3 +20,4 @@ Warning :
    
    This Package Is Only For Understanding How To Bypass The reCaptcha,
    And It Is Up To The Person To Use It Incorrectly .
+   
