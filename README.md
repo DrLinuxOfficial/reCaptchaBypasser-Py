@@ -1,55 +1,34 @@
+<!-- Writed By : Dr.Linux -->
 
-<h1>
-reCaptchaBypasser v1.3
-</h1>
-<a href="https://python.org">
-<img src="https://img.shields.io/badge/python-v3.8-blue">'
+<a href="https://python.org" target="_blank">
+<img src="https://img.shields.io/badge/python-v3.8-blue">
 </a>
+
 <a href="#">
 <img src="https://img.shields.io/badge/platform-Linux%20%7C%20Windows%2010%20%7C%208.1%20%7C%207%20%7C-brown">
 </a>
-<p>
-<h1>
-Usage :
-</h1>
-<h3>
-Notes : Patch Other Error For Packages .
-</h3>
-<pre>
-from selenium import webdriver
-from reCaptchaBypasser import reCaptchaScraper
-import time
 
-driver = webdriver.chrome(executable_path = r"home/username/Desktop/chromedriver")
-driver.get(url)
-time.sleep(5)
-#Sleep Time For Check and Searching Element For reCaptcha Scraping & Defaulting SleepTime == 2 !!!
-reCaptcha = reCaptchaScraper(driver, SleepTime=3)
-res = reCaptcha.reCaptchaGoogleV2()
-if res["Response"] == True:
-   print("ByPassed !!!")
-else:
-     print("Try Again !!!")
-print("reCaptchaTextKey ==> ", res["reCaptchaTextKey"])
-</pre>
-<hr>
-<h3>
-This is Library  For Bypass reCaptcha Using Selenium Python !
-</h3>
-<hr>
-<h3>
-Installition :
-</h3>
+<h1>reCaptchaBypasser Library v1.4</h1>
 
-1 - ffmpeg
-<br>
-2 - pip install pydub
-<br>
-3 - pip install selenium
-<br>
-4 - pip install SpeechRecognition
-<br>
-5 - pip install reCaptchaBypasser
+<hr>
+
+<h2>Dependency :</h2>
+<h4>1. <a href="https://python.org" target="_blank">Python</a>3.8 Or Newer Version .</h4>
+<h4>2. <a href="https://pypi.org/project/selenium" target="_blank">selenium</a></h4>
+<h4>3. <a href="https://pypi.org/project/requests/" target="_blank">requests</a></h4>
+<h4>4. <a href="https://pypi.org/project/beautifulsoup4/" target="_blank">beautifulsoup4</a></h4>
+<h4>5. <a href="https://pypi.org/project/SpeechRecognition/" target="_blank">SpeechRecognition</a></h4>
+<h4>6. <a href="https://ffmpeg.org/download.html" target="_blank">ffmpeg</a></h4>
+<h4>7. <a href="https://pypi.org/project/pydub/" target="_blank">pydub</a></h4>
+
+<hr>
+
+<h3>This Library For Bypass Any reCaptcha (Version 2 & 3) in Python .</h3>
+<h4><a href="https://github.com/DrLinuxOfficial/reCaptchaBypasser-Py/tree/main/Demo" target="_blank">Demo</a> Run File .</h4>
+<h4>GitHub <a href="https://github.com/DrLinuxOfficial/reCaptchaBypasser-Py" target="_blank">Link</a> .</h4>
+<h4>PyPi <a href="https://pypi.org/project/reCaptchaBypasser" target="_blank">Link</a> .</h4>
+
+<hr>
 
 <h1>
 Buy Me Coffee !!!
